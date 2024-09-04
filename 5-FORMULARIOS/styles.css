@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+label{
+    color: crimson;
+    list-style-type: armenian;
+}
+option{
+    color: blue;
+    border-style: groove;
+}

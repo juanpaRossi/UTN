@@ -1,0 +1,25 @@
+span{
+    height: 77px;
+    display: flex;
+    align-items: center;
+    background-image: url(/images.jfif);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: inset 10px 10px 19px rgb(255, 255, 255);
+
+}
+#contador-text{
+    justify-content: center;
+    width: 50px;
+}
+div{display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -5px 5px 10px black;
+    background-image:url(/pexels-magda-ehlers-12798132.webp);
+    background-size: cover;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+    box-shadow: -50px -30px -15 greenyellow;
+}

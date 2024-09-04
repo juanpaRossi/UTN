@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox excalidraw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="navegador">
+        <div class="navprincipal">
+            <button>
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-folder"></i> <span>Abrir</span>
+                    </div>
+                    <div>
+                        <span class="comandorapido">
+                            Ctrl+O
+                        </span>
+                    </div>
+                </div>
+            </button>
+            <button>
+
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-download"></i> <span>Guardar en</span>
+                    </div>
+                </div>
+            </button>
+            <button>
+
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-image"></i> <span>Exportar imagen</span>
+                    </div>
+                    <span class="comandorapido">
+                        Ctrl+Shift+E
+                    </span>
+                </div>
+            </button>
+            <button>
+
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-people"></i> <span>Colaboracion en directo</span>
+                    </div>
+                </div>
+            </button>
+            <button>
+                <div class="combasicos">
+
+                    <div class="leyenda">
+                        <i class="bi bi-lightning-charge"></i> <span class="special">Paleta de comandos</span>
+                    </div>
+                    <span class="comandorapido" id="comspecial">
+                        Ctrl+/
+                    </span>
+                </div>
+            </button>
+            <button>
+
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-question-circle"></i> <span>Ayuda</span>
+                    </div>
+                    <span class="comandorapido">
+                        ?
+                    </span>
+                </div>
+            </button>
+            <button>
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-trash"></i> <span>Limpiar lienzo y reiniciar el color de fondo</span>
+                    </div>
+
+                </div>
+            </button>
+        </div>
+        <div class="navprincipal">
+            <a href="https://plus.excalidraw.com/plus/?utm_source=excalidraw&utm_medium=app&utm_content=hamburger"
+                target="_blank">
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-asterisk"></i>
+                        <span>
+                            Excalidraw+
+                        </span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/excalidraw/excalidraw" target="_blank">
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-github"></i>
+                        <span>
+                            Github
+                        </span>
+                    </div>
+
+                </div>
+            </a>
+            <a href="https://x.com/excalidraw" target="_blank">
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-twitter-x"></i>
+                        <span>
+                            Siganos
+                        </span>
+                    </div>
+
+                </div>
+            </a>
+            <a href="https://discord.com/invite/UexuTaE" target="_blank">
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-discord"></i>
+                        <span>
+                            Chat de Discord
+                        </span>
+                    </div>
+
+                </div>
+            </a>
+            <a href="https://app.excalidraw.com/sign-up?utm_source=signin&utm_medium=app&utm_content=hamburger"
+                target="_blank">
+                <div class="combasicos">
+                    <div class="leyenda">
+                        <i class="bi bi-box-arrow-in-left"></i>
+                        <span class="special">
+                            Inscribirse
+                        </span>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+        <div class="navprincipal">
+            <div class="combasicos">
+                <div class="leyenda">
+                    <span>Tema</span>
+                </div>
+
+                <div class="comandorapido" id="pt">
+
+                    <div class="flex">
+                        <label for="tema"></label>
+                        <input type="radio" name="tema" id="tema" role=i class="bi bi-brightness-high">
+                    </div>
+                    <div>
+                        <label for="tema"></label>
+                        <input type="radio" name="tema" id="tema" role=i class="bi bi-moon">
+
+                    </div>
+                    <div>
+                        <label for="tema"></label>
+                        <input type="radio" id="tema" name="tema" role=i class="bi bi-pc-display-horizontal">
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <label for="lenguaje"></label>
+            <select name="lenguaje" id="lenguaje">
+                <option value="esp">Espanol</option>
+                <option value="ing">Ingles</option>
+                <option value="por">Portugues</option>
+                <option value="chi">Chino</option>
+            </select>
+            <div>
+                <div>
+                    <span>Fondo de lienzo</span>
+                </div>
+                <div class="lienzo">
+                    <button class="color"></button>
+                    <button class="color" id="verde"></button>
+                    <button class="color" id="celeste"></button>
+                    <button class="color" id="amarillo"></button>
+                    <button class="color" id="rosa"></button>
+                    <button class="color"></button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
